@@ -14,11 +14,6 @@ class Pirate
   end
 
 end
-def initialize(params)
-  @name = params[:name]
-  @grade = params[:grade]
-  STUDENTS << self
-
 
 
 #Create two classes, a Pirate class and a Ship class. Pirates should have a name, weight, and height.
