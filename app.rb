@@ -20,7 +20,3 @@ module FormsLab
 
   end
 end
-@student = Student.new(params[:student])
-
-params[:student][:courses].each do |details|
-  Course.new(details)
